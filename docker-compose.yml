@@ -1,0 +1,8 @@
+quake3:
+    image: vkryvoruchko/quake3
+    restart: always
+    ports:
+        - "27960:27960/udp"
+    volumes:
+        - /home/${USER}/pak0.pk3:/usr/share/games/quake3/baseq3/pak0.pk3
+        - /home/${USER}/server.cfg:/usr/share/games/quake3/baseq3/server.cfg

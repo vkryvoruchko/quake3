@@ -1,0 +1,1 @@
+kubectl expose deploy/q3-server --target-port=27960 --protocol=UDP --type=NodePort
