@@ -29,6 +29,8 @@ WORKDIR /usr/share/games/quake3/baseq3
 
 ##Comment this line to use default server.cfg instead of my own
 COPY server.cfg /usr/share/games/quake3/baseq3/server.cfg
+##Copy maps
+COPY 17t6remix.pk3 pro-t4_v2.pk3 sincity.pk3 /usr/share/games/quake3/baseq3/
 
 USER Debian-quake3
 
